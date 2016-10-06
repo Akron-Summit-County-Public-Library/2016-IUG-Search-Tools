@@ -1,0 +1,21 @@
+{
+    "name": "Akron-Summit-County-Public-Library/2016-IUG-Search-Tools",
+    "authors": [
+        {
+            "name": "Cameron Schrode",
+            "email": "cschrode@akronlibrary.org"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "*@stable",
+        "doctrine/dbal": "*@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "db": {
+        "driver": "pgsql",
+        "host": "sierra-db.library.tld",
+        "port": 1032,
+        "ssl": true,
+        "user": "Sierra User",
+        "password": "Sierra Password",
+        "database": "iii"
+    },
+    "api": {
+       "client_key": "Sierra REST Client Key",
+       "client_secret": "Sierra REST Client Secret",
+       "server": "https://catalog.library.tld/iii/sierra-api/v3/"
+    },
+    "amazon": {
+       "client_key": "Amazon Client Key",
+       "client_secret": "Amazon Client Secret",
+       "affiliate_id": "Amazon Affiliate ID",
+       "server": "http://webservices.amazon.com/onca/xml"
+    }
+}
